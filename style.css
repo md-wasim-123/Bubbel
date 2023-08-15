@@ -60,9 +60,8 @@ h2 {
   justify-content: center;
   width: 100%;
   height: calc(100% - 50px);
-background: linear-gradient(328.78deg, #030086 14.45%, #BD6177 84.36%), linear-gradient(301.28deg, #209B4A 0%, #7000FF 100%), radial-gradient(100% 138.56% at 100% 0%, #D50000 0%, #00FFE0 100%), radial-gradient(100% 148.07% at 0% 0%, #D50000 0%, #00FFFF 100%);
-background-blend-mode: soft-light, overlay, difference, normal;
-  /* overflow-y: scroll; */
+  background: linear-gradient(328.78deg, #030086 14.45%, #BD6177 84.36%), linear-gradient(301.28deg, #209B4A 0%, #7000FF 100%), radial-gradient(100% 138.56% at 100% 0%, #D50000 0%, #00FFE0 100%), radial-gradient(100% 148.07% at 0% 0%, #D50000 0%, #00FFFF 100%);
+  background-blend-mode: soft-light, overlay, difference, normal;  /* overflow-y: scroll; */
 }
 #bottom-box .box-bubbel {
   display: flex;
@@ -71,16 +70,17 @@ background-blend-mode: soft-light, overlay, difference, normal;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgb(13, 237, 237);
+  background-color: rgb(8, 224, 239);
   font-weight: 700;
   /* padding: 50px; */
   margin: 5px;
   font-weight: 500;
+  color: #000000;
 }
 #bottom-box .box-bubbel:hover{
   font-weight: 600;
   cursor: pointer;
-  background-color: rgb(7, 122, 122);
+  background-color: rgb(20, 115, 115);
 
 }
 
