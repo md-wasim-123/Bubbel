@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(123, 120, 134);
+}
+
+h1 {
+  color: rgb(57, 12, 98);
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0;
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 80vw;
+  height: 90vh;
+  background-color: rgb(222, 223, 223);
+  margin: 0px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.container .head-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(33, 0, 86);
+  padding: 10px 25%;
+}
+
+.head-box .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+
+.box {
+ 
+  color: #000000 !important ;
+  background-color: rgb(237, 237, 237);
+  border-radius: 10%;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* overflow:scroll-x; */
+}
+#bottom-box{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: #000000;
+  /* overflow-y: scroll; */
+}
+#bottom-box .box-bubbel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(13, 237, 237);
+  font-weight: 700;
+  /* padding: 50px; */
+  margin: 5px;
+  font-weight: 500;
+}
+#bottom-box .box-bubbel:hover{
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(7, 122, 122);
+
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  padding:  2px 30%;
+}
+
+#refreshButton{
+  width: 10vw;
+  font-size: 1.3vw;
+  height: 2rem;
+  text-align: center;
+background-color: darkorange;
+  color: aliceblue;
+  border-radius: 5px;
+}
+#w{
+  font-size: 2rem;
+  padding: 10px;
+  color: aliceblue;
+  background-color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  .container .head-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(33, 0, 86);
+ 
+  }
+  
+  .head-box .col {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 2rem;
+   
+  }
+  #bottom-box{
+    padding-bottom: 25%;
+    overflow-y: scroll;
+  }
+}
